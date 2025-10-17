@@ -1,0 +1,47 @@
+/* General styles */
+body {
+  background-color: lightyellow;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+header img {
+  vertical-align: middle;
+}
+
+nav a {
+  text-decoration: none;
+  color: darkblue;
+  margin: 0 10px;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: darkred;
+}
+
+marquee img {
+  margin: 0 10px;
+  border-radius: 10px;
+}
+
+/* Popular shoes section */
+.popular {
+  margin-top: 20px;
+}
+
+.popular img {
+  width: 190px;
+  height: 300px;
+  margin: 10px;
+  border-radius: 10px;
+  transition: transform 0.3s, box-shadow 0.3s;
+  cursor: pointer;
+}
+
+.popular img:hover {
+  transform: scale(1.1);
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
+}
